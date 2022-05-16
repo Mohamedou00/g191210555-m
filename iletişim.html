@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/4c31174684.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>
+        Form
+    </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="form1">
+            <form action="index.php">
+                <h1>Yeni Bir Hesap Oluştur</h1>
+                <div class="name">
+                    <label for="adi">Adı</label> <input type="text" id="name" required placeholder="Adınız">
+                </div>
+                <div class="sername"> <label for="soyadi">Soyadı</label> <input type="text" id="sername" required placeholder="Soyadınız" pattern="[0-9]{0,8}"></div>
+                <div class=" email1 ">
+                    <label for="email ">E-Posta</label> <input type="email " id="email " required placeholder="e-posta girin ">
+                </div>
+                <div class="yenisifre ">
+                    <label for="sifre ">Yeni-Şifre</label> <input type="password " required id="sıfre " placeholder="Yeni Şifre Girin ">
+                </div>
+                <div class="dogumtarihi ">
+                    <label for="tarih ">Doğum Tarihi </label> <input type="date " required id="date ">
+                </div>
+                <div class=" check ">
+                    <label for="erkek ">Erkek  </label> <input type="checkbox" id="erkek " required> <label for="kadin ">Kadın</label><input type="checkbox" name=" " id="kadin " required>
+                </div>
+
+                <div class="button "><input type="button" value="Hesap Oluştur " id="button "></div>
+
+
+            </form>
+
+
+
+        </div>
+    </div>
+
+    <script src="index.js ">
+    </script>
+
+
+</body>
+
+</html>
